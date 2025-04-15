@@ -18,6 +18,8 @@ env:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    # 添加环境配置，替换为你实际的环境名称
+    environment: liang-own
     permissions:
       contents: read
       packages: write
